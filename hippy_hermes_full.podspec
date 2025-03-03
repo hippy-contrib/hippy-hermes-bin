@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'hippy_hermes_full'
-  s.version      = '1.0.2'
+  s.version      = '1.0.3'
   s.summary      = 'hermes engine for hippy'
   s.description  = 'version of hermes 0.76'
-  s.homepage     = 'https://git.woa.com/raycgwang/hippy_hermes'
+  s.homepage     = 'https://github.com/hippy-contrib/hippy-hermes-bin'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Author' => 'author@example.com' }
-  s.source       = { :git => 'https://git.woa.com/raycgwang/hippy_hermes.git', :tag => s.version.to_s }
-  s.platform     = :ios, '11.0'
+  s.source       = { :git => 'https://github.com/hippy-contrib/hippy-hermes-bin.git', :tag => s.version.to_s }
+  s.platform     = :ios, '12.0'
   s.source_files = 'Full/destroot/**/*.{h,m,swift}'
   s.public_header_files = "Full/destroot/include/**/*.h"
   s.header_mappings_dir = "Full/destroot/include"
