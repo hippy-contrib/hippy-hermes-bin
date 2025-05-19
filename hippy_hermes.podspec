@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'hippy_hermes'
-  s.version      = '1.0.4'
+  s.version      = '1.0.5'
   s.summary      = 'hermes engine for hippy'
   s.description  = 'version of hermes 0.76'
   s.homepage     = 'https://github.com/hippy-contrib/hippy-hermes-bin'
